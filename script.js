@@ -68,7 +68,7 @@ function handleCardClick(e) {
       }, 1000);
     }
   }
-  if (cardsFlipped === COLORS.length) alert("You Win");
+  if (cardsFlipped === COLORS.length) alert("Congratulations You Win");
 }
 createDivsForColors(shuffledColors);
 
